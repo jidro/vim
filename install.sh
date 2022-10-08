@@ -1,8 +1,8 @@
 #!/bin/env bash
 
-sudo mv ~/.vimrc ~/.vimrc.bak
-sudo cp vimrc ~/
-sudo mv ~/vimrc ~/.vimrc
+mv -v ~/.vimrc ~/.vimrc.bak
+cp -pv vimrc ~/
+mv -v ~/vimrc ~/.vimrc
 
-sudo mv ~/.vim/vimrc ~/.vim/vimrc.bak
-sudo cp -r .vim ~/
+mv -v ~/.vim/vimrc ~/.vim/vimrc.bak
+cp -rfpv .vim ~/
